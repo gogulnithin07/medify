@@ -1,0 +1,14 @@
+.btnPrimary {
+  border-radius: 8px;
+  background: rgba(42, 168, 255, 1);
+  border: none;
+  cursor: pointer;
+  /*  typo*/
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}

@@ -1,13 +1,46 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* reset */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.slick-slide > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* slider arrwo in medical center */
+.daySliderContainer .slick-arrow {
+  background-color: aqua !important;
+}
+.slick-prev {
+  left: -35px !important;
+  color: white !important;
+}
+.slick-next {
+  /* font-size: 15px !important; */
+  right: -35px !important;
+  color: white !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  opacity: 1 !important;
 }

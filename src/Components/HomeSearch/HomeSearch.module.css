@@ -1,0 +1,130 @@
+.homeSearchContainer {
+  margin: 50px auto;
+  width: 80%;
+  /* min-height: 429px; */
+  max-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.divEl {
+  position: relative;
+}
+.divEl img {
+  position: absolute;
+  left: 12px;
+  top: 12px;
+  object-fit: contain;
+  object-position: center;
+  width: 24px;
+  height: 24px;
+}
+.inputContainer select {
+  padding-left: 40px;
+  width: 285px;
+  height: 50px;
+  border-radius: 8px;
+  background: rgba(250, 251, 254, 1);
+  border: 1px solid rgba(240, 240, 240, 1);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(171, 182, 199, 1);
+}
+
+.h3El {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 30px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: rgba(16, 40, 81, 1);
+}
+.imageContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.cont {
+  width: 203px;
+  height: 153px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 203px;
+  height: 153px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 34px 44px 0px rgba(213, 219, 228, 0.44);
+}
+.cont img {
+  width: 60px;
+  height: 60px;
+}
+.pEl {
+  width: 72px;
+  height: 27px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: rgba(171, 182, 199, 1);
+}
+
+@media screen and (max-width: 1180px) {
+  .homeSearchContainer {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .homeSearchContainer {
+    width: 100%;
+  }
+  .inputContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .homeSearchContainer {
+    width: 95%;
+    height: auto;
+  }
+}
+.hosp {
+  background: rgba(42, 167, 255, 0.08);
+  border: 1px solid rgba(42, 167, 255, 1);
+}
+.hosp p {
+  color: rgba(42, 167, 255, 1);
+}

@@ -1,0 +1,133 @@
+.aboutContainer {
+  height: 789px;
+  width: 100%;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+}
+.contentContainer {
+  height: 714px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textContainer {
+  height: 714px;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 5px;
+  padding: 20px 0px;
+  padding-left: 30px;
+}
+.cardContainer {
+  height: 714px;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+}
+.cardContainer div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+.cardContainer img {
+  max-width: 242.5px;
+  max-height: 304px;
+}
+.h3El {
+  width: 100%;
+  max-height: 18px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 18px;
+  text-align: left;
+  color: rgba(42, 167, 255, 1);
+}
+.h4El {
+  width: 100%;
+  height: 65.5px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+  text-align: left;
+  color: rgba(27, 60, 116, 1);
+}
+.pEl {
+  width: 100%;
+  max-width: 531.17px;
+  height: 205px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 40.8px;
+  text-align: left;
+  color: rgba(119, 130, 157, 1);
+}
+@media screen and (max-width: 1112px) {
+  .aboutContainer {
+    height: auto;
+  }
+
+  .h3El,
+  .h4El {
+    text-align: center;
+  }
+  .pEl {
+    text-align: left;
+  }
+  .contentContainer {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .textContainer {
+    margin-top: 50px;
+    /* height: auto; */
+    max-height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding-left: 0;
+  }
+  .cardContainer {
+    height: auto;
+    width: 90%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .cardContainer img {
+    max-width: 200.5px;
+    max-height: 250px;
+  }
+  .h4El,
+  .pEl {
+    padding-top: 10px;
+  }
+  .cardContainer {
+    margin-top: 04px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .cardContainer {
+    margin-top: 50px;
+  }
+  .cardContainer img {
+    max-width: 180.5px;
+    max-height: 220px;
+  }
+}

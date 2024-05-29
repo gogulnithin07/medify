@@ -1,0 +1,245 @@
+.container {
+  width: 100%;
+  height: 542px;
+  background: linear-gradient(
+    81deg,
+    #e7f0ff 9.01%,
+    rgba(232, 241, 255, 0.47) 89.11%
+  );
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerContent {
+  width: 100%;
+  height: 94%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* phone container */
+.phoneContainer {
+  width: 40%;
+  height: 100%;
+}
+.phoneContainer img {
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: contain;
+}
+/* form container */
+.fromContainer {
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+  position: relative;
+}
+.vectorContainer {
+  width: 112.35px;
+  height: 56.17px;
+  position: absolute;
+  left: -70px;
+  top: 130px;
+}
+.fromContainer h3 {
+  width: 338px;
+  height: 138px;
+  width: 338px;
+  height: 134px;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+  text-align: left;
+  color: rgba(27, 60, 116, 1);
+}
+.fromContainer h3 span {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 67px;
+  text-align: left;
+  color: rgba(42, 167, 255, 1);
+}
+.fromContainer p {
+  width: 233.77px;
+  height: 19px;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+.inputFieldContainer {
+  width: 98%;
+  height: 49px;
+  display: flex;
+  flex-direction: row;
+}
+.inputFieldContainer button {
+  margin-left: 20px;
+}
+.inputFieldContainer input {
+  position: relative !important;
+  width: 80%;
+  height: 49px;
+  padding: 1px 0px 1px 1px;
+  gap: 0px;
+  border-radius: 8px;
+  border: 1px;
+  opacity: 0px;
+  color: rgba(250, 251, 254, 1);
+}
+.inputFieldContainer input::placeholder {
+  width: 178px;
+  height: 18px;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  color: rgba(180, 180, 190, 1);
+}
+.storeImageContainer {
+  margin-top: 40px;
+  width: 80%;
+  height: 69px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+.storeImageContainer img {
+  width: 224px;
+  height: 69px;
+}
+@media screen and (max-width: 1158px) {
+  .container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .containerContent {
+    flex-direction: column;
+  }
+  .containerContent {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .phoneContainer {
+    margin-top: 80px;
+    width: 50%;
+  }
+
+  .fromContainer {
+    margin-top: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .vectorContainer {
+    left: 15px;
+    top: 50px;
+  }
+  .inputFieldContainer {
+    justify-content: center;
+    align-items: center;
+  }
+  .storeImageContainer {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 982px) {
+  .vectorContainer {
+    left: -15px;
+    top: 50px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .vectorContainer {
+    left: -25px;
+    top: 50px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .phoneContainer {
+    width: 74%;
+  }
+  .fromContainer {
+    width: 90%;
+  }
+  .vectorContainer {
+    left: 50px;
+    top: 50px;
+  }
+  .fromContainer h3 {
+    text-align: center;
+  }
+  .inputFieldContainer {
+    height: 100px;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .inputFieldContainer input {
+    width: 80%;
+  }
+  .storeImageContainer {
+    width: 100%;
+    height: 150px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 642px) {
+  .vectorContainer {
+    left: 30px;
+    top: 50px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .vectorContainer {
+    left: 0px;
+    top: 50px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .vectorContainer {
+    left: -10px;
+    top: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .vectorContainer {
+    left: -18px;
+    top: 50px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .vectorContainer {
+    top: 60px;
+  }
+}
