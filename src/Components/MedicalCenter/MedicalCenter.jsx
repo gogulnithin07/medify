@@ -184,7 +184,11 @@ function MedicalCenterContainer({
           </p>
           <div class={styles.like}>
             <img src={Frame} alt="thumbs" />
-            <p className={styles.likeText}>{data["Hospital overall rating"]}</p>
+            <p className={styles.likeText}>
+              {data["Hospital overall rating"] == "Not Available"
+                ? "5"
+                : data["Hospital overall rating"]}
+            </p>
           </div>
         </div>
         {location !== "/booking" ? (
